@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+	<head>
+		<title>About</title>
+	</head>
+
+	<body>
+		<div>
+			This is the about page <br />
+			This tutorial has been put together by Alan McNamee <br />
+		
+		<img src="{% static "images/rango.jpg" %}"alt="Picture of Rango" />
+		<img src="{{ MEDIA_URL }}cat.jpg" />
+		<div>
+			<a href="/rango">Index</a><br />
+		</div>
+		
+	</body>
+
+</html>
